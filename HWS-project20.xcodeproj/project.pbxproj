@@ -14,6 +14,13 @@
 		E6A138C21D617EDA00F1D375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A138C01D617EDA00F1D375 /* Main.storyboard */; };
 		E6A138C41D617EDA00F1D375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A138C31D617EDA00F1D375 /* Assets.xcassets */; };
 		E6A138C71D617EDA00F1D375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A138C51D617EDA00F1D375 /* LaunchScreen.storyboard */; };
+		E6A138D61D617F4800F1D375 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A138CF1D617F4800F1D375 /* background.png */; };
+		E6A138D71D617F4800F1D375 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D01D617F4800F1D375 /* background@2x.png */; };
+		E6A138D81D617F4800F1D375 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D11D617F4800F1D375 /* explode.sks */; };
+		E6A138D91D617F4800F1D375 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D21D617F4800F1D375 /* fuse.sks */; };
+		E6A138DA1D617F4800F1D375 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D31D617F4800F1D375 /* rocket.png */; };
+		E6A138DB1D617F4800F1D375 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D41D617F4800F1D375 /* rocket@2x.png */; };
+		E6A138DC1D617F4800F1D375 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A138D51D617F4800F1D375 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		E6A138C31D617EDA00F1D375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6A138C61D617EDA00F1D375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6A138C81D617EDA00F1D375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A138CF1D617F4800F1D375 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E6A138D01D617F4800F1D375 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		E6A138D11D617F4800F1D375 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		E6A138D21D617F4800F1D375 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		E6A138D31D617F4800F1D375 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		E6A138D41D617F4800F1D375 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+		E6A138D51D617F4800F1D375 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +80,23 @@
 				E6A138C31D617EDA00F1D375 /* Assets.xcassets */,
 				E6A138C51D617EDA00F1D375 /* LaunchScreen.storyboard */,
 				E6A138C81D617EDA00F1D375 /* Info.plist */,
+				E6A138CE1D617F4800F1D375 /* Content */,
 			);
 			path = "HWS-project20";
+			sourceTree = "<group>";
+		};
+		E6A138CE1D617F4800F1D375 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6A138CF1D617F4800F1D375 /* background.png */,
+				E6A138D01D617F4800F1D375 /* background@2x.png */,
+				E6A138D11D617F4800F1D375 /* explode.sks */,
+				E6A138D21D617F4800F1D375 /* fuse.sks */,
+				E6A138D31D617F4800F1D375 /* rocket.png */,
+				E6A138D41D617F4800F1D375 /* rocket@2x.png */,
+				E6A138D51D617F4800F1D375 /* spark.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +157,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A138DC1D617F4800F1D375 /* spark.png in Resources */,
 				E6A138BB1D617EDA00F1D375 /* GameScene.sks in Resources */,
+				E6A138D61D617F4800F1D375 /* background.png in Resources */,
+				E6A138D91D617F4800F1D375 /* fuse.sks in Resources */,
+				E6A138DA1D617F4800F1D375 /* rocket.png in Resources */,
+				E6A138D81D617F4800F1D375 /* explode.sks in Resources */,
 				E6A138C71D617EDA00F1D375 /* LaunchScreen.storyboard in Resources */,
+				E6A138DB1D617F4800F1D375 /* rocket@2x.png in Resources */,
 				E6A138C41D617EDA00F1D375 /* Assets.xcassets in Resources */,
+				E6A138D71D617F4800F1D375 /* background@2x.png in Resources */,
 				E6A138C21D617EDA00F1D375 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.prophen.HWS-project20";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -272,6 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.prophen.HWS-project20";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
